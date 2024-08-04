@@ -27,14 +27,13 @@ header nav ul li a {
 }
 
 #hero {
+    
     position: relative;
     text-align: center;
     color: white;
     height: 100vh; /* Set to the height of the viewport */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.9)),
-                url('/cartão\ de\ visita.png') no-repeat center center/cover;
-
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.9)), url('/cartão\ de\ visita.png') no-repeat center center/cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hero-content {
@@ -155,11 +154,17 @@ header nav ul li a {
 
 .testimonial h3 {
     margin-top: -50px; /* Ajuste a margem superior conforme necessário */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 1.2em;
     color: #333;
 }
 
+.union{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 #faq {
     padding: 50px 20px;
@@ -167,7 +172,6 @@ header nav ul li a {
 
 .faq-item {
     margin-bottom: 20px;
-    
 }
 
 footer {
@@ -194,4 +198,56 @@ footer {
 
 .footer-column ul li {
     margin-bottom: 5px;
+}
+
+/* Responsividade mobile */
+@media (max-width: 760px) {
+    
+}
+
+@media (max-width: 320px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #testimonials .testimonial {
+        width: 80%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .carousel-inner {
+        flex-direction: column;
+    }
+
+    .carousel-item {
+        width: 100%;
+    }
 }
