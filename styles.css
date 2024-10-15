@@ -69,7 +69,7 @@ header nav ul li a {
 
 .carousel {
     position: relative;
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -85,9 +85,9 @@ header nav ul li a {
 }
 
 .carousel-item img {
-    width: 100%;
+    width: 600px;
     height: auto; /* Ensure aspect ratio is maintained */
-    max-height: 500px; /* Set the maximum height for the images */
+    max-height: 700px; /* Set the maximum height for the images */
     object-fit: cover; /* Cover the entire area, cropping if necessary */
 }
 
