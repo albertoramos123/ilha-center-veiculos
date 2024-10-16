@@ -32,7 +32,7 @@ header nav ul li a {
     text-align: center;
     color: white;
     height: 100vh; /* Set to the height of the viewport */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.9)), url('/cartão\ de\ visita.png') no-repeat center center/cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.9)), url('./cartão\ de\ visita.png') no-repeat center center/cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -168,6 +168,8 @@ header nav ul li a {
 
 #faq {
     padding: 50px 20px;
+    align-items: center;
+    align-content: center;
 }
 
 .faq-item {
